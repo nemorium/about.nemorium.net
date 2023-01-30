@@ -62,22 +62,6 @@ collections:
     output: true
     path: _pages
     permalink: "/:title/"
-  updates:
-    output: true
-    path: _updates
-    permalink: "/:title/"
-  knowledges:
-    output: true
-    path: _knowledges
-    permalink: "/:title/"
-  terms:
-    output: true
-    path: _terms
-    permalink: "/:title/"
-  concepts:
-    output: true
-    path: _concepts
-    permalink: "/:title/"
 exclude:
   - Gemfile
   - Gemfile.lock

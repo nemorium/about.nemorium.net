@@ -6,9 +6,9 @@ layout: archives-posts-all
 {% for collection in site.collections %}
 
 <article class="entry entry-format-list-item">
-  <h3 class="entry-title">{{} collection.label }}</h3>
+  <h3 class="entry-title">{{ collection.label }}</h3>
   <div class="entry-body">
-{% for post in collection.documents %}
+{% for post in site[collection.label] %}
     <a href="{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a>
 {% endfor %}
   </div>

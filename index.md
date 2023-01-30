@@ -1,4 +1,4 @@
 ---
 layout: archives-posts-recent
-title: 최근 문서
+title: 최근 스크랩
 ---

@@ -5,7 +5,7 @@ layout: archives-posts-all
 <div class="archives archive-type-collections">
 {% for collection in site.collections %}
 
-<article class="entry entry-format-list-item">
+<article class="entry entry-format-excerpt">
   <h3 class="entry-title">{{ collection.label }}</h3>
   <div class="entry-body">
 {% for post in site[collection.label] %}

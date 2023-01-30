@@ -5,7 +5,8 @@
 
 |	종류		|	위치			|
 |	----		|	----			|
+|	일반		|	`_pages`		|
 |	뉴스		|	`_updates`		|
-|	일반 지식	|	`_knowledges`	|
+|	지식		|	`_knowledges`	|
 |	용어		|	`_terms`		|
-|	개인 설정	|	`_concepts`		|
+|	설정		|	`_concepts`		|

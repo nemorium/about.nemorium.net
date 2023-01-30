@@ -57,8 +57,11 @@ sass:
   style: :expanded
 
 # 빌드 타겟
-include:
-  - _pages
+collections:
+  pages:
+    output: true
+    path: _pages
+    permalink: "/:title/"
 exclude:
   - Gemfile
   - Gemfile.lock

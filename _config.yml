@@ -1,42 +1,42 @@
 # 체크리스트
-# [ ] 설정 -- /_config.yml
-# [ ] 도메인 -- /CNAME
-# [ ] 메뉴 구성 -- /_includes/nav.html
-# [ ] 첫 페이지 제목 -- /index.md
-# [ ] 아카이브 제목 -- /archives.md
-# [ ] 샘플 포스트 삭제 -- /_posts/2023-01-29-lorem-ipsum.md
+# [x] 설정 -- /_config.yml
+# [x] 도메인 -- /CNAME
+# [x] 메뉴 구성 -- /_includes/nav.html
+# [x] 첫 페이지 제목 -- /index.md
+# [x] 아카이브 제목 -- /archives.md
+# [x] 샘플 포스트 삭제 -- /_posts/2023-01-29-lorem-ipsum.md
 
 # 운영자 정보
-author: "__AUTHOR_NAME__"
+author: "@oxmhpark"
 
 # 웹사이트 정보
-title: "__SITE_NAME__"
-description: "__SITE_DESCRIPTION__"
+title: "M의 채록집"
+description: "Dr. Mojo's Manuscripts"
 lang: "ko"
 timezone: "Asia/Seoul"
 stylesheet_url: "/assets/style.css"
 favicon_url: ""
 
 # 주소체계
-url: "https://__SITE_URL__"
-enforce_ssl: "https://__SITE_URL__"
+url: "https://about.nemorium.net"
+enforce_ssl: "https://about.nemorium.net"
 baseurl: "/"
 permalink: "/:title/"
 format:
   date: "%Y.%m.%d."
   read_more:
-    label: "__READ_MORE__ &rarr;"
+    label: "더 읽기 &rarr;"
   view_archives:
     url: "/archives/"
-    label: "__VIEW_ARCHIVES__ &rarr;"
+    label: "전체 문서목록 보기 &rarr;"
 
 # 댓글 시스템 (https://giscus.app)
 giscus:
   src: "https://giscus.app/client.js"
-  repo: "__GISCUS_REPO__"
-  repo_id: "__GISCUS_REPO_ID__"
-  category: "__GISCUS_CATEGORY__"
-  category_id: "__GISCUS_CATEGORY_ID__"
+  repo: "nemorium/about.nemorium.net"
+  repo_id: "R_kgDOI3ZCuA"
+  category: "giscus"
+  category_id: "DIC_kwDOI3ZCuM4CT4aY"
   mapping: "pathname"
   theme: "light"
   lang: "ko"
@@ -57,6 +57,8 @@ sass:
   style: :expanded
 
 # 빌드 타겟
+include:
+  - _pages
 exclude:
   - Gemfile
   - Gemfile.lock

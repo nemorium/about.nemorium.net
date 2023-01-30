@@ -10,7 +10,7 @@
 author: "@oxmhpark"
 
 # 웹사이트 정보
-title: "단어장"
+title: 북"
 description: "Dr. Mojo's Manuscripts"
 lang: "ko"
 timezone: "Asia/Seoul"
@@ -28,7 +28,7 @@ format:
     label: "더 읽기 &rarr;"
   view_archives:
     url: "/archives/"
-    label: "전체 문서목록 보기 &rarr;"
+    label: "전체 스크랩 목록 보기 &rarr;"
 
 # 댓글 시스템 (https://giscus.app)
 giscus:
